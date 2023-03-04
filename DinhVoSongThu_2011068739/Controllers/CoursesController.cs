@@ -22,6 +22,7 @@ namespace DinhVoSongThu_2011068739.Controllers
             var viewModel = new CourseViewModel
             {
                 Categories = _dbContext.Categories.ToList()
+
             };
             return View(viewModel);
         }
